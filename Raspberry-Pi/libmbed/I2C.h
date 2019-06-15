@@ -1,7 +1,7 @@
 #ifndef PI_I2C_H
 #define PI_I2C_H
 
-#include <PinNames.h>
+#include "PinNames.h"
 
 namespace mbed {
     
