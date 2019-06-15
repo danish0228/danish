@@ -23,6 +23,7 @@ extern "C" {
         GPIO4,
         GPIO17 = 6,
         GPIO21,
+	GPIO27,
 	GPIO22,
         GPIO10 = 9,
         GPIO9,
@@ -66,6 +67,7 @@ extern "C" {
         p21 = GPIO18,
         p22 = GPIO15,
         p23 = GPIO14,
+	p27 = GPIO27,
 
         // Not connected
         NC = (int)0xFFFFFFFF
