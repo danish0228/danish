@@ -1,7 +1,7 @@
 #include "BMX055.h"
 #include "mbed.h"
 
-BMX055 bmx(P10,P11,P12,PA_10,PA_12,PA_11);//(mosi,miso,sck,CSB1,CSB2,CSB3) conntect 4-wire spi mode
+BMX055 bmx(GPIO10,GPIO9,GPIO11,GPIO17,GPIO27,GPIO22);//(mosi,miso,sck,CSB1,CSB2,CSB3) conntect 4-wire spi mode
 Serial pc(USBTX,USBRX); //USBÚ‘±
 
 int main() {
