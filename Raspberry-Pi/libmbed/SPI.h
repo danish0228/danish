@@ -1,7 +1,7 @@
 #ifndef MBED_SPI_H
 #define MBED_SPI_H
 
-#include <PinNames.h>
+#include "PinNames.h"
 
 #define	NULL	0
 typedef	unsigned char uint8_t;
