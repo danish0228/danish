@@ -18,8 +18,8 @@ extern "C" {
     enum e_PinName {
         
         // Raspberry Pi Pin Names
-        GPIO0 = 2,
-        GPIO1,
+        GPIO2 = 2,
+        GPIO3,
         GPIO4,
         GPIO17 = 6,
         GPIO21,
@@ -35,8 +35,8 @@ extern "C" {
         GPIO18 = 21,
         GPIO15,
         GPIO14,
-        SDA = GPIO0,
-        SCL = GPIO1,
+        SDA = GPIO2,
+        SCL = GPIO3,
         GPCLK0 = GPIO4,
         PCM_DOUT = GPIO21,
         MOSI = GPIO10,
@@ -49,8 +49,8 @@ extern "C" {
         TXD = GPIO14,
 
         // Raspberry Connector Pin Names
-        p2 = GPIO0,
-        p3 = GPIO1,
+        p2 = GPIO2,
+        p3 = GPIO3,
         p4 = GPIO4,
         p6 = GPIO17,
         p7 = GPIO21,
