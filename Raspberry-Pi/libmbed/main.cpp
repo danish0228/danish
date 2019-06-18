@@ -1,12 +1,11 @@
 #include "BMX055.h"
 #include "mbed.h"
-
+#include "stdio.h"
 BMX055 bmx(GPIO10,GPIO9,GPIO11,GPIO17,GPIO27,GPIO22);//(mosi,miso,sck,CSB1,CSB2,CSB3) conntect 4-wire spi mode
-Serial pc(USBTX,USBRX); //USBÚ‘±
 
 int main() {
 
-    pc.printf("aa");
+    printf("aa");
     
     while(1) {
       short mag[4];
