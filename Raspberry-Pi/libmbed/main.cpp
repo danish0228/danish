@@ -10,15 +10,15 @@ int main() {
     while(1) {
       short mag[4];
       while(bmx.read_mag(mag)==false);
-      pc.printf("mag,%d,%d,%d,%d\r\n",(int)mag[0],(int)mag[1],(int)mag[2],(int)mag[3]);
+      printf("mag,%d,%d,%d,%d\r\n",(int)mag[0],(int)mag[1],(int)mag[2],(int)mag[3]);
     
       short gyr[3];
       while(bmx.read_gyr(gyr)==false);
-      pc.printf("gyr,%d,%d,%d\r\n",(int)gyr[0],(int)gyr[1],(int)gyr[2]);
+      printf("gyr,%d,%d,%d\r\n",(int)gyr[0],(int)gyr[1],(int)gyr[2]);
     
       short acc[3];
       while(bmx.read_acc(acc)==false);
-      pc.printf("acc,%d,%d,%d\r\n",(int)acc[0],(int)acc[1],(int)acc[2]);
+      printf("acc,%d,%d,%d\r\n",(int)acc[0],(int)acc[1],(int)acc[2]);
     }
     
 }
